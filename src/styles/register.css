@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    width: 900px;
+    max-width: 95%;
+    height: 550px;
+}
+
+.register-left {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e3e3e; 
+    color: #fff;
+    text-align: center;
+}
+
+.register-left h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.register-left p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.register-left a {
+    text-decoration: none;
+}
+
+.register-left button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3d3d3d;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-left button:hover {
+    background-color: #f0f0f0;
+}
+
+.register-right {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-right h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register-right .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.register-right .social-login button {
+    border: none;
+    background-color: #e7e7e7;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-right .social-login button:hover {
+    background-color: #d6d6d6;
+}
+
+.register-right p {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #000000;
+}
+
+.register-right form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-right form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.register-right form button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3d3d3d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-right form button:hover {
+    background-color: #ffffff;
+}
